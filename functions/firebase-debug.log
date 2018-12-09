@@ -1,0 +1,28 @@
+[debug] [2018-12-09T23:46:24.016Z] ----------------------------------------------------------------------
+[debug] [2018-12-09T23:46:24.019Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve --only functions
+[debug] [2018-12-09T23:46:24.019Z] CLI Version:   6.1.2
+[debug] [2018-12-09T23:46:24.019Z] Platform:      darwin
+[debug] [2018-12-09T23:46:24.019Z] Node Version:  v8.11.4
+[debug] [2018-12-09T23:46:24.020Z] Time:          Mon Dec 10 2018 00:46:24 GMT+0100 (CET)
+[debug] [2018-12-09T23:46:24.020Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-12-09T23:46:24.041Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-12-09T23:46:24.042Z] > authorizing via signed-in user
+[debug] [2018-12-09T23:46:24.042Z] [iam] checking project naveenbikeshop for permissions ["firebase.projects.get"]
+[debug] [2018-12-09T23:46:24.044Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/naveenbikeshop:testIamPermissions  
+
+[debug] [2018-12-09T23:46:24.880Z] <<< HTTP RESPONSE 200
+[debug] [2018-12-09T23:46:24.882Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/naveenbikeshop  
+ 
+[debug] [2018-12-09T23:46:25.648Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/naveen/Library/Mobile Documents/com~apple~CloudDocs/AWSFileUpload/firebase'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-12-09T23:46:27.121Z] Fetching environment
+[debug] [2018-12-09T23:46:27.125Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/433069731384:getServerAppConfig  
+ 
+[debug] [2018-12-09T23:46:27.414Z] <<< HTTP RESPONSE 200
+[debug] [2018-12-09T23:46:27.415Z] Starting @google-cloud/functions-emulator
+[debug] [2018-12-09T23:46:29.493Z] Parsing function triggers
+[info] ✔  functions: awsList: http://localhost:5000/naveenbikeshop/us-central1/awsList
